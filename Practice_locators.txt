@@ -1,0 +1,29 @@
+
+2. Practice with locators.
+Create locators + search strategy for these page elements of Amazon Sign in page:
+- Amazon logo [$x("//i[@class='a-icon a-icon-logo']")]
+	Logo field,search by XPATH, class='a-icon a-icon-logo'
+
+- Email field [$x("//input[@id='ap_email']")]
+	Email field,search by XPATH, id='ap_email'
+
+- Continue button [$x("//input[@id='continue']")]
+	Continue button,search by XPATH, id='continue'
+
+- Need help link [$x("//span[@class='a-expander-prompt']")]
+	Need help link,search by XPATH, class='a-expander-prompt'
+
+- Forgot your password link [$x("//a[@id='auth-fpp-link-bottom']")]
+	Forgot your password link, search by XPATH, id='auth-fpp-link-bottom'
+
+- Other issues with Sign-In link [$x("//a[@id='ap-other-signin-issues-link']")]
+	Other issues with Sign-In link, search by XPATH, id='ap-other-signin-issues-link'
+
+- Create your Amazon account button [$x("//a[@id='createAccountSubmit']")]
+	Create your Amazon account button, search by XPATH, id='createAccountSubmit'
+
+- *Conditions of use link [$x("//a[contains(@href,'ref=ap_desktop_footer_cou')]")]
+	Conditions of use link, search by XPATH, contains(@href,'ref=ap_desktop_footer_cou')
+
+- *Privacy Notice link [$x("//a[contains(@href,'ref=ap_desktop_footer_privacy')]")]
+	Privacy Notice link, search by XPATH, contains(@href,'ref=ap_desktop_footer_privacy')
